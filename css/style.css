@@ -6,7 +6,7 @@ html,body,header,#intro {
     -webkit-background-size: cover;
     background-size: cover;
 }
-.top-nav-collapse {
+.top-nav-collapse{
     background: whitesmoke;
 }
 
@@ -17,11 +17,24 @@ html,body,header,#intro {
 }
 
 @media (max-width: 768px) {
-    .navbar:not(.top-nav-collapse) {
+    .navbar:not(.top-nav-collape) {
         background: whitesmoke;
     }
 }
 
 .carousel-item {
     height: 300px;
+}
+
+footer {
+    flex: 0 0 auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
 }
