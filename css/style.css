@@ -21,10 +21,13 @@ html,body,header,#intro {
     .navbar:not(.top-nav-collape) {
         background: whitesmoke;
     }
+    .navbar-toggler-icon {
+        border-color: black;
+    }
 }
 
 .carousel-item {
-    height: 300px;
+    height: 450px;
 }
 
 footer {
