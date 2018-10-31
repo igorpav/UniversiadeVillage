@@ -11,6 +11,7 @@ html,body,header,#intro {
 }
 
 
+
 #logo {
     width: 80px;
     height: 50px;
@@ -37,4 +38,7 @@ body {
 
 main {
     flex: 1 0 auto;
+}
+.navbar.navbar-expand-lg.fixed-top.scrolling-navbar.navbar-dark.top-nav-collapse a {
+    color: black;
 }

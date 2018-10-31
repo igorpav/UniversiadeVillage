@@ -6444,7 +6444,8 @@ a.waves-effect, a.waves-light {
         transition-duration: 1s; }
       .navbar.scrolling-navbar.top-nav-collapse {
         padding-top: 5px;
-        padding-bottom: 5px; } }
+        padding-bottom: 5px;
+        } }
 
 .pagination .page-item.active .page-link {
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
