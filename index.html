@@ -382,4 +382,19 @@
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="js/mdb.min.js"></script>
 
+<script>
+    $(function(){
+        $(".nav-link").click(function (event) {
+            event.preventDefault();
+            $('body,html').animate({scrollTop: $($(this).attr('href')).offset().top - 100}, 500);
+        });
+    });
+    $(function () {
+        $('#logo').click(function (event) {
+            event.preventDefault();
+            $('body,html').animate({scrollTop : $('#intro').offset().top},500);
+        })
+    });
+</script>
+
 </html>
