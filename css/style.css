@@ -20,7 +20,9 @@ html,body,header,#intro {
 @media (max-width: 768px) {
     .navbar:not(.top-nav-collape) {
         background: whitesmoke;
+
     }
+
 }
 
 .carousel-item {
