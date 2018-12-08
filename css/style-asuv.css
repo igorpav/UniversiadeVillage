@@ -43,3 +43,7 @@ main {
 .navbar.navbar-expand-lg.fixed-top.scrolling-navbar.navbar-dark a {
     color: white;
 }
+
+#description{
+    padding: 30px;
+}
