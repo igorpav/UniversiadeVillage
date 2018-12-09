@@ -1,6 +1,9 @@
 html,body,header,#intro {
     height: 100%;
 }
+.people p{
+    text-align: center;
+}
 #intro {
     background: url("../img/asuv.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
