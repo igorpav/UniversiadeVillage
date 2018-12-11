@@ -18,13 +18,23 @@ html,body,header,#intro {
 @media (max-width: 768px) {
     .navbar:not(.top-nav-collape) {
         background: whitesmoke;
+    }
+    .carousel-inner, .carousel-item {
+        height: 400px;
+    }
+    .carousel-caption {
+        margin-bottom: 100px;
+    }
 
+    .carousel-item img {
+        height: 400px;
     }
 
 }
 
+
 .carousel-item {
-    height: 450px;
+    height: 500px;
 }
 
 footer {
@@ -45,3 +55,4 @@ main {
 .navbar.navbar-expand-lg.fixed-top.scrolling-navbar.navbar-dark a {
     color: white;
 }
+
