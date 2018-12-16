@@ -5,63 +5,107 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Деревня Универсиады</title>
+    <title>Профиль</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="../css/mdb.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/profile.css">
     <script src="../js/jquery-3.3.1.min.js"></script>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="../js/scroll.js"></script>
+    <script src="../js/scrolling-navbar.js"></script>
+
 </head>
 <body>
+<header>
+    <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar navbar-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand mr-5 my-2">
+                <img src="../img/logodu.png" alt="" id="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle Navigation">
+                <span><i class="fa fa-bars black-text"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+                <ul class="navbar-nav mr-auto ml-auto smooth-scroll">
+                    <li class="nav-item mr-3">
+                        <a href="" target="_blank" class="nav-link waves-effect waves-light font-weight-normal">НА ГЛАВНУЮ</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a href="https://vk.com/universiadevillage" target="_blank" class="nav-link waves-effect waves-light">
+                            <i class="fa fa-vk fa-lg"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.instagram.com/universiadevillage/" target="_blank" class="nav-link waves-effect waves-light">
+                            <i class="fa fa-instagram fa-lg"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="intro" class="view">
+        <div class="mask rgba-black-strong">
+            <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+                <div class="row d-flex justify-content-center text-center">
+                    <div class="col-md-12">
+                        <h2 class="display-4 white-text font-weight-bold pt-5 mb-2">Личный кабинет</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section id="profile-info">
 <div class="container emp-profile">
     <form method="post">
         <div class="row">
             <div class="col-md-4">
                 <div class="profile-img">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog" alt=""/>
+                    <img src="../img/profile.jpg" alt=""/>
                     <div class="file btn btn-lg btn-primary">
-                        Change Photo
+                        Изменить фото
                         <input type="file" name="file"/>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <div class="profile-head">
+                    <h4>
+                        Бадыгова Алия Рамисовна
+                    </h4>
                     <h5>
-                        Kshiti Ghelani
+                        Высшая школа ИТИС КФУ
                     </h5>
-                    <h6>
-                        Student of KFU
-                    </h6>
-                    <p class="proile-rating">RATING : <span>25/124</span></p>
+                    <h5 class="proile-rating">Ваш рейтинг в доме : <span>25/124</span></h5>
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Information</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Информация</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">About</a>
+                            <a class="nav-link" id="events-tab" data-toggle="tab" href="#events" role="tab" aria-controls="events" aria-selected="false">Мероприятия</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="san-tab" data-toggle="tab" href="#san" role="tab" aria-controls="san" aria-selected="false">Сан.состояние</a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="col-md-2">
-                <input type="submit" class="profile-edit-btn" name="btnAddMore" value="Show rating"/>
+            <div class="col-md-3">
+                <a href="https://docs.google.com/spreadsheets/d/1HK2hxlLoP8XLwHzl9a-KMyzQ96gtD2UHE9tjcyDw7XI/edit#gid=0" target="_blank" class="text-center" name="btnAddMore">Посмотреть таблицу дома</a>
             </div>
         </div>
         <div class="row">
             <div class="col-md-4">
                 <div class="profile-work">
-                    <p>SOCIAL NETWORK LINK</p>
+                    <p>Социальные сети</p>
                     <a href="">VK</a><br/>
                     <a href="">Instagram</a><br/>
                     <a href="">Telegram</a>
-                    <p>SKILLS</p>
-                    <a href="">Web Designer</a><br/>
-                    <a href="">Web Developer</a><br/>
-                    <a href="">WordPress</a><br/>
-                    <a href="">WooCommerce</a><br/>
-                    <a href="">PHP, .Net</a><br/>
                 </div>
             </div>
             <div class="col-md-8">
@@ -69,18 +113,18 @@
                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                         <div class="row">
                             <div class="col-md-6">
-                                <label>User Id</label>
+                                <label>Логин</label>
                             </div>
                             <div class="col-md-6">
-                                <p>Kshiti123</p>
+                                <p>ARBadygova18</p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
-                                <label>Name</label>
+                                <label>Имя</label>
                             </div>
                             <div class="col-md-6">
-                                <p>Kshiti Ghelani</p>
+                                <p>Бадыгова Алия Рамисовна</p>
                             </div>
                         </div>
                         <div class="row">
@@ -88,75 +132,127 @@
                                 <label>Email</label>
                             </div>
                             <div class="col-md-6">
-                                <p>kshitighelani@gmail.com</p>
+                                <p>abadygova17@gmail.com</p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
-                                <label>Phone</label>
+                                <label>Телефон</label>
                             </div>
                             <div class="col-md-6">
-                                <p>123 456 7890</p>
+                                <p>+7 937 876 17 21</p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
-                                <label>Adress</label>
+                                <label>Адрес</label>
                             </div>
                             <div class="col-md-6">
-                                <p>Universiade village,18 410 </p>
+                                <p>Деревня Универсиады, 18 - 301 </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Направление обучения</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Программная инженерия</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Академическая группа</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>11-704</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Форма обучения</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Бюджет</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Дата рождения</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>05.07.1999</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Адрес прописки</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Ульяновская область, город Димитровград, улица Свирская 33А - 48</p>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="tab-pane fade" id="events" role="tabpanel" aria-labelledby="events-tab">
                         <div class="row">
-                            <div class="col-md-6">
-                                <label>Passion</label>
+                            <div class="col-md-5">
+                                <label>Посвящение в первокурсники</label>
                             </div>
-                            <div class="col-md-6">
-                                <p>...</p>
+                            <div class="col-md-3">
+                                <p>05.09.18</p>
+                            </div>
+                            <div class="col-md-4">
+                                <p>Организатор</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-6">
-                                <label>Hourly Rate</label>
+                            <div class="col-md-5">
+                                <label>Акция против СПИДа</label>
                             </div>
-                            <div class="col-md-6">
-                                <p>10$/hr</p>
+                            <div class="col-md-3">
+                                <p>10.10.18</p>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <label>Total Projects</label>
-                            </div>
-                            <div class="col-md-6">
-                                <p>230</p>
+                            <div class="col-md-4">
+                                <p>Организатор</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-6">
-                                <label>English Level</label>
+                            <div class="col-md-5">
+                                <label>Фестиваль "Кухня народов мира"</label>
                             </div>
-                            <div class="col-md-6">
-                                <p>Expert</p>
+                            <div class="col-md-3">
+                                <p>07.11.18</p>
+                            </div>
+                            <div class="col-md-4">
+                                <p>Участник</p>
                             </div>
                         </div>
                         <div class="row">
+                            <div class="col-md-5">
+                                <label>Фотоконкурс</label>
+                            </div>
+                            <div class="col-md-3">
+                                <p>29.11.18</p>
+                            </div>
+                            <div class="col-md-4">
+                                <p>Победитель</p>
+                            </div>
+                        </div>
+                </div>
+                    <div class="tab-pane fade" id="san" role="tabpanel" aria-labelledby="san-tab">
+                        <div class="row">
                             <div class="col-md-6">
-                                <label>Availability</label>
+                                <label>Средний балл оценки чистоты</label>
                             </div>
                             <div class="col-md-6">
-                                <p>6 months</p>
+                                <p>9,23</p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <label>Your Bio</label><br/>
-                                <p>Your detail description</p>
+                                <label>До следующей проверки осталось:</label>
                             </div>
                         </div>
-                    </div>
-                </div>
+                        <div class="row">
                 <div id="clockdiv">
                     <div>
                         <span class="days"></span>
@@ -175,10 +271,38 @@
                         <div class="smalltext">Секунд</div>
                     </div>
                 </div>
+                            </div></div></div>
             </div>
         </div>
+        </div>
     </form>
-</div>
+</div></section>
+<footer class="page-footer font-small unique-color-dark pt-0">
+
+    <div class="container mt-5 mb-4 text-center text-md-left">
+        <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+                <hr>
+                <h6 class="text-uppercase font-weight-bold">ДЕРЕВНЯ УНИВЕРСИАДЫ</h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 200px;">
+
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                <img src="../img/logoDU.png" alt="">
+            </div>
+            <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
+                <h6 class="text-justify font-weight-normal">ГАУ РТ "Деревня Универсиады"</h6>
+
+                <p><a href="#">Адрес: 420010, Казань, Деревня Универсиады 16А</a></p>
+                <p><a href="#">Телефон: 8 (843) 237-80-27</a></p>
+                <p><a href="#">E-mail: universiade.village@tatar.ru</a></p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3">
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
