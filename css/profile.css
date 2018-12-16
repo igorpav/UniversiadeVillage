@@ -5,9 +5,10 @@ body{
     background: whitesmoke;
 }
 #intro {
-    background: url("../img/intro-profile.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
+    background: url("../img/intro-profile.jpg") no-repeat ;
     background-size: cover;
+    height: 300px;
+    width: 100%;
 }
 
 #logo {
