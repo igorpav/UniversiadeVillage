@@ -14,6 +14,13 @@ html,body,header,#intro {
     width: 80px;
     height: 50px;
 }
+#button-affiche{
+    border-color: #636363 !important;
+    color: #383838 !important;
+}
+#noneDisplay{
+    display: none;
+}
 
 @media (max-width: 768px) {
     .navbar:not(.top-nav-collape) {
