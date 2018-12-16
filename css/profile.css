@@ -74,6 +74,9 @@ body{
     font-size: 15px;
     font-weight: 600;
 }
+.change-img{
+    background-color: #d0ecfb;
+}
 .profile-head .nav-tabs{
     margin-bottom:5%;
 }
@@ -110,7 +113,7 @@ body{
 }
 .profile-tab p {
     font-weight: 600;
-    color: #0062cc;
+    color: #3162bf;
 }
 #clockdiv{
     margin-top: 10px;
@@ -121,23 +124,26 @@ body{
     font-weight: 100;
     text-align: center;
     font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #clockdiv > div{
     padding: 10px;
     border-radius: 3px;
-    background: deepskyblue;
+    background: #d0ecfb;
     display: inline-block;
 }
 
 #clockdiv div > span{
     padding: 15px;
     border-radius: 3px;
-    background: #0062cc;
+    background: #6a7279;
     display: inline-block;
 }
 
 .smalltext{
     padding-top: 5px;
     font-size: 16px;
+    color: #0d0d0d;
 }
