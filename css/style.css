@@ -39,6 +39,9 @@ html,body,header,#intro {
 
 }
 
+@media (max-width: 992px) {
+
+}
 
 .carousel-item {
     height: 500px;
